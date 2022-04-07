@@ -17,7 +17,7 @@ import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import { hooks } from "../connectors/metamask";
 import AuthWrapper from "../wrapper/Auth";
-import { abi } from "../Twitter.json";
+import { abi } from "../public/Twitter.json";
 import { ethersProvider } from "../providers/ethers";
 import Tweet from "../components/Tweet";
 import { reverse } from "dns";
