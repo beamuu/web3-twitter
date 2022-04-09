@@ -13,3 +13,20 @@ The website was hosted [here!](https://web3-twitter.web.app)
 When you tweet something, your tweet's data will be pinned to Pinata IPFS gateway through their API. Once the tweet's data is pinned, the IPFS Hash of yoour pinned tweet will be sent to the blockchain via transaction and will be their forever. No one can delete it even change or block it from the platform.
 
 **The smart contract will be post on GitHub as soon as possible. Thanks for your interest.**
+
+#### Please feel free to fork or clone this project.
+
+## Getting started
+
+Installing dependencies
+```
+$ yarn
+```
+Starting develop the project
+```
+$ yarn dev
+```
+Build the static files for hosting
+```
+$ yarn build
+```
