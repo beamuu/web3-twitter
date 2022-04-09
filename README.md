@@ -1,34 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Web3 Twitter with Next.js
 
-First, run the development server:
+This is a **example of Web3.0 concept version of Twitter** using Next.js. 
+The website was hosted [here!](https://web3-twitter.web.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Sign in options
+- `MetaMask Browser Extension`
+- `WalletLink` (QRCode) - ***comming soon***
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### How it works
+When you tweet something, your tweet's data will be pinned to Pinata IPFS gateway through their API. Once the tweet's data is pinned, the IPFS Hash of yoour pinned tweet will be sent to the blockchain via transaction and will be their forever. No one can delete it even change or block it from the platform.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**The smart contract will be post on GitHub as soon as possible. Thanks for your interest.**
