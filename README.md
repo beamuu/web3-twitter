@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 # Web3 Twitter with Next.js
 
 This is a **example of Web3.0 concept version of Twitter** using Next.js. 
-The website was hosted [here!](https://web3-twitter.web.app)
+The example version of the website was hosted [here!](https://web3-twitter.web.app)
 
 ### Sign in options
 - `MetaMask Browser Extension`
@@ -18,15 +18,27 @@ When you tweet something, your tweet's data will be pinned to Pinata IPFS gatewa
 
 ## Getting started
 
-Installing dependencies
+#### Installing dependencies
 ```
 $ yarn
 ```
-Starting develop the project
+#### Configuring environment variables
+Starting with creating `.env.local` file.
+```
+$ touch .env.local
+```
+Add these variables into your `.env.local` file.
+```.env
+NEXT_PUBLIC_PINATA_KEY=<your-pinata-api-key>
+NEXT_PUBLIC_PINATA_SECRET=<your-pinata-api-secret-key>
+```
+If you don't have Pinata's API key. Go to [pinata.cloud](https://www.pinata.cloud/) and sign up your new account. Then generate the API keys for using this their API.
+
+#### Starting develop the project
 ```
 $ yarn dev
 ```
-Build the static files for hosting
+#### Build the static files for hosting
 ```
 $ yarn build
 ```
